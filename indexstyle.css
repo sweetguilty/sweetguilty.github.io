@@ -220,15 +220,46 @@ PROJECTS
 }
 
 .proj-card {
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-radius: 1rem;
-    box-shadow: 1rem 2rem 3rem #F5F5F5;
     padding: 2rem;
     margin-bottom: 2rem;
 }
+/****box-shadow: 1rem 1rem 0.5rem #EBEBEB;****/
+
+
 
 @media only screen and (min-width: 768px) {
     .proj-card {
-        min-height: 24rem;
+        min-height: 18rem;
     }
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-Content;
+}
+
+
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columngif {
+  float: left;
+  width: 20%;
+}
+.columnpng {
+  float: left;
+  width: 80%;
+}
+
+.giftrow {
+    align-items: center;
+}
+/* Clear floats after image containers */
+.giftrow::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
 }

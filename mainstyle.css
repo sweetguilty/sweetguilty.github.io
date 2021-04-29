@@ -38,7 +38,7 @@ b {
 
 p,
 li {
-    color: #3E4043;
+    color: #707070;
     font-weight: 300;
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
@@ -64,11 +64,11 @@ a:hover {
 }
 
 .tag {
-    font-size: 0.7rem;
-    opacity: 0.6;
+    font-size: 1 rem;
     padding-top: 1rem;
+    color: #999999;
 }
-
+<!----.ta opacity: 0.2;--->
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
 NAVBAR
@@ -98,7 +98,7 @@ NAVBAR
 }
 
 .bg {
-    background-color: #F6F9FC;
+    background-color: #ECDBEA;
     padding: 4rem 0rem;
 }
 
