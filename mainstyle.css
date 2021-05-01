@@ -16,33 +16,7 @@ LightGray: dadadd
 TEXT
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-h1,
-h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    color: #CEB3CB;
-    font-size: 2.6rem;
-    padding-bottom: 0.5rem;
-}
 
-h3,
-h4 {
-    font-weight: 600;
-    color: #3E4043;
-    font-family: 'Inter', sans-serif;
-}
-
-b {
-    font-weight: 600;
-}
-
-p,
-li {
-    color: #707070;
-    font-weight: 300;
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-}
 
 a {
     color: #1d1d1d;
@@ -97,10 +71,6 @@ NAVBAR
     transition: all 0.4s;
 }
 
-.bg {
-    background-color: #ECDBEA;
-    padding: 4rem 0rem;
-}
 
 
 /*
