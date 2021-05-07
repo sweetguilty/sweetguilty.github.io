@@ -1,0 +1,27 @@
+
+#F6F9FC
+.highlight {
+    background-color: #EEF9FB;
+
+}
+
+.proj-head {
+background-color: #FFFFFF;
+}
+
+
+h2{
+  color: #FE204B;
+}
+
+/***.prototype-d{
+  z-index:5;
+  position: relative;
+  ext-align: center;****/
+
+.prototype{
+  width: 200px;
+}
+/***@media screen and max-width(576px){
+.prototype{
+  bottom: 25vw;)***/
