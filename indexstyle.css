@@ -11,7 +11,7 @@ canvas {
     width: 100%;
     height: 100%;
     color: #CEB3CB;
-
+ECE1EB
 }
 
 @media only screen and (min-width: 1024px) {
@@ -227,7 +227,7 @@ PROJECTS
 }
 /****box-shadow: 1rem 1rem 0.5rem #EBEBEB;****/
 
-
+}
 
 @media only screen and (min-width: 768px) {
     .proj-card {
@@ -292,6 +292,6 @@ li {
 }
 
 .bg {
-    background-color: #ECDBEA;
+    background-color: #F3EAF2;
     padding: 4rem 0rem;
 }
