@@ -37,6 +37,24 @@ h2{
     margin-right: auto;
     width: 50%;
 }
+.search3 {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:20%;
+}
+.search4 {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:20%;
+}
+.search5 {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:20%;
+}
 
 .prototype {
   display: block;
