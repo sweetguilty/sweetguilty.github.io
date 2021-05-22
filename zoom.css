@@ -62,16 +62,28 @@ width: 70%;
   margin-right: auto;
   width: 70%;
 }
-.feedback{
-padding-top: 5%;
-padding-bottom: 5%;
-}
 
-.iteration{
+.poll2{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 30%;
+}
+.poll3{
   display: block;
-padding-top: 5%;
-padding-bottom:5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.reaction2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.toolbar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
