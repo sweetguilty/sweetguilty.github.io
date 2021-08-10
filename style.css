@@ -236,7 +236,7 @@ transition-delay:.2s;
   position: fixed!important;
 }
 
-@media (min-width:425px){
+@media (max-width:425px){
   .navbar{
     padding: 1.5rem 1rem 0rem;
   }
