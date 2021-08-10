@@ -124,7 +124,7 @@ cursor:default;
 }
 
 .hovereffect .overlay {
-width:auto;
+width:inherit;
 height:inherit;
 position:absolute;
 overflow:hidden;
@@ -236,6 +236,14 @@ transition-delay:.2s;
   position: fixed!important;
 }
 
-@media (max-width:900px){
+@media (min-width:365px){
+  .navbar{
+    padding: 1.5rem 1rem 0rem;
+  }
+
+  #projects{
+    padding:50px;
+    text-align: center;
+  }
 
 }
