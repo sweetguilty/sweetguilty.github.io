@@ -125,7 +125,7 @@ cursor:default;
 
 .hovereffect .overlay {
 width:auto;
-height:300px;
+height:inherit;
 position:absolute;
 overflow:hidden;
 top:0;
