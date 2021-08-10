@@ -1,0 +1,199 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight:700;
+}
+
+h2{
+
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.4rem;
+}
+
+p{
+  color: #000;
+  font-size:1.5rem;
+}
+
+.white-text{
+  color: #fff;
+  font-size:1.5rem;
+  padding: 3% 7%;
+}
+
+.header1{
+  padding:0 7%;
+}
+/*Navigation Bar*/
+
+.navbar{
+  padding: 1.5rem 4.5rem 0rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  }
+
+.nav-link{
+  font-size:1.4rem;
+  font-family:"Montserrat";
+  font-weight:400;
+}
+
+.logo{
+  width:70px;
+}
+
+/*Hero*/
+
+
+.hero{
+position:relative;
+width:100vw;
+height 100vh;
+  margin:0;
+}
+
+.hero-pic{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  margin:0;
+  image-rendering: crisp-edges;
+}
+/**Overview**/
+#content-overview{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+
+#feature-box{
+  padding: 7% 15%;
+  background: rgb(255,103,86);
+  background: linear-gradient(90deg, rgba(255,103,86,1) 33%, rgba(252,26,107,1) 100%);
+  text-align: center;
+  position: relative;
+}
+
+.icon{
+  color: #fff;
+
+}
+
+.icon:hover{
+color:#ef8172;
+}
+
+/**Challenge & Outcome**/
+#challenge-outcome-content{
+  padding: 7% 15%;
+  background: rgb(255,103,86);
+  background: linear-gradient(90deg, rgba(255,103,86,1) 33%, rgba(252,26,107,1) 100%);
+  color:#fff;
+  position: relative;
+}
+
+/***Solution***/
+#solution-content{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+
+.prototype{
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+.image{
+    image-rendering: crisp-edges;
+}
+/**Process**/
+#design-process{
+  padding: 7% 15% 0;
+  background-color:#fff;
+  position: relative;
+}
+.image1{
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+#detail-process{
+  padding: 2% 15% 7%;
+  background-color:#fff;
+  position: relative;
+}
+
+.image2{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* or object-fit: contain; */
+ image-rendering: crisp-edges;
+}
+.image3{
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+ image-rendering: crisp-edges;
+}
+
+
+#nextsteps{
+  padding: 2% 15% 7%;
+  background-color:#fff;
+  position: relative;
+}
+/***More projects***/
+#content-moreproject{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+.process{
+  padding: 7% 15%;
+  background: rgb(255,103,86);
+  background: linear-gradient(90deg, rgba(255,103,86,1) 33%, rgba(252,26,107,1) 100%);
+  color: #fff;
+  position: relative;
+}
+.process2{
+  padding: 7% 15% 0;
+  background-color:#fff;
+  position: relative;
+}
+.insight2{
+  padding:6% 0 0 1%;
+}
+
+.download-button{
+  background: rgb(255,103,86);
+  background: linear-gradient(90deg, rgba(255,103,86,1) 33%, rgba(252,26,107,1) 100%);
+  color:#fff;
+  width: 30%;
+  border-radius: 20px;
+  }
+
+
+
+/*--Scroll---*/
+
+.scroll-to-top{
+  right:4rem;
+  bottom:2rem;
+  padding:1rem;
+  border-radius:100px;
+  font-size:1rem;
+}
+
+.position-fixed{
+  position: fixed!important;
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SUZY PARK</title>
+
+
+
+
+  <!--CSS Stylesheets-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="chef-smart-style.css">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!--Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<head>
+
+<body>
+  <section id="title">
+
+    <div class="top-container">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logo" src="images/homepageicon.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="https://suzy-park.com/#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://suzy-park.com/#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="images/Susanna-Park.pdf" target="_blank">Resumé</a>
+              </li>
+            </ul>
+          </div>
+
+      </nav>
+    </div>
+  </section>
+
+
+  <section id="hero">
+    <div class="hero">
+      <img class="hero-pic" src="images/chef-hero2.png" alt="">
+    </div>
+  </section>
+
+  <!----OVERVIEW----->
+
+  <section class="overview-content">
+    <h1 class="header"> Overview</h1>
+    <div class="row justify-content-center ">
+
+      <div class="col-sm-10 col-lg-8">
+<br /><br /><br />
+        <h4>How it all started...</h4><br />
+        <p>It took just a simple question: "How was your day today?" Upon listening to my user, I discovered that they had to almost throw out an eggplant that day because they forgot that it had been in the fridge for awhile. This intrigued me - how could this
+          happen? Do others experience this too? Can we prevent this from happening again in the future?
+        </p>
+      </div>
+  </section>
+
+  <section class="overview-content2">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon far fa-clock fa-4x"></i>
+        <br /><br />
+        <h3>2 Sprints (1 week ea.)</h3>
+        <p>Sprint 1: Research<br /> Sprint 2: Design </p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon far fa-user fa-4x"></i>
+          <br /><br />
+        <h3>Solo Project</h3>
+        <p>Role: UX/UI Designer</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-wrench fa-4x"></i>
+          <br /><br />
+        <h3>Tools</h3>
+        <p>Sketch, Invision, Illustrator <br />and Whimsical</p>
+      </div>
+    </div>
+  </section>
+
+  <!----Challenge & Outcome--->
+  <section class="overview-content3">
+
+    <div class="row">
+      <div class="col-xs-12 col-lg-6">
+        <h1 class="header">Challenge</h1>
+        <p>
+          Janice - a sporadic bulk buyer and home cook - loves to cook; however <b>she often finds herself buying too much food and throwing out spoiled ingredients.</b></p> <br /><br />
+
+      </div>
+      <div class="col-xs-12 col-lg-6">
+        <h1 class="header">Requirements:</h1>
+        <p> 1) A way to know when an ingredient is about to spoil.</p>
+        <p> 2) Recipe/DIY recommendations for the above ingredients that are simple and quick.</p>
+      </div>
+    </div>
+
+  <!---SOLUTION--->
+<br /><br />
+    <h1 class="header">Solution</h1>
+    <p>I designed an app that will alert users when their ingredients are about to expire, while simultaneously recommending a recipe or use-case that is as hands-off as possible.</p>
+    <p>
+      <b>  3 Core Features:<br /></b>
+        1) Automatically generate and store a list of items by scanning an itemized receipt.<br />
+        2) Customizable notifications sent to her device(s) - triggered when ingredients will expire based on the Canadian Government's Food Standards.<br />
+        3) Provides recipe recommendations based on what is about to expire.<br />
+        **Client asked for Block-Level Wiremframes with no colours.
+    </p><br />
+    <a href="https://suzy141570.invisionapp.com/console/share/3F2J1EN0D8" <button class="download-button btn btn-lg" type="button" target="_blank">
+      View Prototype</button></a>
+
+
+  <!---Outcome-->
+<br /><br /><br /><br />
+    <div class="col-xs-12 col-lg-12">
+        <h1 class="header">Outcome</h1>
+      <p>
+        The app Chef Smart was a success, as my client loved the solution. It became a quick and easy way for her to keep track of her ingredients and recipes on the same platform, which heavily reduced confusion as she no longer needed to switch between platforms, tabs, or apps. Ultimately, they loved that the app was low-maintenance but also effective!
+      </p>
+<br />
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+        <i>  <p>
+            “I love how you took my feedback and iterated on a smart solution! I don’t like to overload my phone with multiple apps, and often I’m too lazy to make time to make a list…but with your scanner tool, I won’t have to do anything!”</i><br /></p>
+            <p class="user">—Janice</p>
+
+        </div>
+        <div class="col-xs-12 col-lg-6">
+        <i><p> “I really like the concept of the solution. It shows you took the time to internalize user feedback while also using the native capabilities of the device to help reduce manual effort.”</i></p><br /><p class="user">—Dan</p>
+        </div>
+      </div>
+    </section>
+  <section class="overview-content4">
+      <h1 class="header"> How exactly did I get to the solution?</h1>
+      <p>Here is a quick summary of my design process. If you would like to look at it in more detail, click the button below.
+      </p>
+      <h2>Design Process</h2>
+      <img class="image" src="images/Chef Smart/designprocess.png" alt="process" />
+
+
+      <div class="accordion accordion-flush" id="accordion" role="tablist" aria-multiselectable="true">
+
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="HeadingOne">
+
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="accordion" href="#CollapseOne" aria-expanded="true" aria-controls="CollapseOne" <button class="download-button2 btn btn-lg" type="button">View Design Process</button>
+
+              </a>
+            </h4>
+          </div>
+  </section>
+  <div id="CollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="HeadingOne">
+    <section class="overview-content">
+      <h1 class="header"> 0.1 Research</h1><br /><br />
+      <p>
+        My research all began with some user interviews. I choose to use interviews as it was the most straightforward way for me to understand more about my client's needs before trying to identify a problem. Post-interview, I did a bit of affinity mapping in order to properly synthesize my findings. Here is a quick summary of what I found in my research.
+      </p><br /><br />
+        <h2> Meet Janice, my client.</h2>
+      <img class="image" src="images/Chef Smart/janice.png" alt="" />
+      <p>
+        Due to the ongoing pandemic and the curfew laws set in her province, she has more of a reason to be a sporadic bulk grocery buyer. Janice tries to buy a lot and she tries to finish everything within one week. When she is unable to finish all of her ingredients in time, she has to throw out anything spoiled.
+      </p><br /><br /><br /><br />
+
+      <h2>Further Research</h2><br />
+      <p>
+        I wanted to dig a bit deeper and see what she's already tried or done to resolve the problem at hand. What are some methods, tools or applications that she uses to help her manage her situation currently?
+      </p>
+      <p>
+        Janice usually keeps track of her ingredients via memory or on sight (i.e. looking in the fridge), but these methods have not been helping her. Upon investigating further, I found that she uses Evernote (a basic app that allows users to
+        create a to-do-list) to do her grocery shopping. However, Evernote is very broad and unspecialized, and Janice finds it time-consuming to make a list.
+      </p>
+    </section>
+    <section class="overview-content5">
+  <h1 class="header"> 0.2 Define</h1><br /><br />
+  <p>Defining my design challenges is one of the most important steps in Design thinking process, because the rest of the process will follow what I define.</p><br /><br /><br />
+    <h2>Problem</h2><br />
+    <p>
+      Janice, a sporadic bulk buyer and home cook loves to cook, however she often finds herself buying too much food and throwing out spoiled ingredients.
+    </p><br /><br />
+    <h2>How might we help home cooks/bulk buyers like Janice to...</h2>
+    <p>keep track of ingredients that are soon to spoil?<br />
+      find recipes that she can make without spending too much time?</p><br /><br /><br />
+      <h2>Solution </h2><br />
+      <p>
+     By reimagining existing solutions, we can create a tailored app that will alert home cooks when their ingredients are about to expire, recommend recipes, and remain as hands-off as possible.
+      </p>
+</section>
+
+<section class="overview-content">
+  <div>
+
+
+  <h1>0.3 Ideating </h1><br /><br />
+  <p>
+    After brainstorming and creating a first version of my solution, I decided to perform further interviews in order to iterate on my design.
+  </p>
+  <img class="image" src="images/Chef Smart/feedback.png" alt="" />
+<br /><br /><br /><br /><br /><br />
+<h1>0.4 Design </h1><br /><br />
+<p>
+  Obtaining valuable feedback allowed me to go ahead and make a User Flow; which aided in visualising just how my a user wants to proceed through the app. This flow then gave me a launching point to creating my first set of wireframes.
+</p>
+<img class="image" src="images/Chef Smart/userflow.jpg" alt="" />
+  <img class="image" src="images/Chef Smart/sketches.jpg" alt="" />
+<br /><br /><br /><br /><br /><br />
+  <h1>0.5 Prototype</h1><br />
+  <p>Initial protyping was done via quick sketches, on which I was able to perform some preliminary usability testing. </p><br /><br /> <a href="https://suzy141570.invisionapp.com/console/share/QZ2SXQVFST/531301370" <button class="download-button btn btn-lg" type="button" target="_blank">
+      View Prototype</button></a>
+<br /><br /><br /><br /><br /><br /><br /><br />
+      <h1>0.6 Iterations</h1><br /><br />
+      <p>
+    After having my user test out my first prototype, I made three changes before creating my block level prototype.</p>
+    <p><br /><br />
+      <b>1) Some receipts require more than one picture to catch everything. </b>
+    </p>
+    <p>
+          Some examples of this could be a long receipt or multiple different receipts in a single grocery haul.
+    My initial sketched out wireframes only included one picture of the receipt before it generated a list.</p>
+
+    <img class="image" src="images/Chef Smart/iteration1.png" alt="" /><br /><br />
+  <p> Now, my iteration allows users to take or upload as many pictures or screenshots of their receipts as required. </p>
+
+  <img class="image" src="images/Chef Smart/iteration2.png" alt="" />
+  <br /><br /><br /><br /><br /><br /><br />
+  <p><b>2) What if the system is unable to identify an item or categorize it properly after scanning a receipt? </b></p>
+  <br />
+  <p> My initial wireframes assumed that machine learning would detect everything successfully. But realistically, it is not 100% possible. </p>
+  <img class="image" src="images/Chef Smart/iteration3.png" alt="" />
+  <br />
+  <p>
+    So I added an option for the user to quickly and easily manually edit any erroneous or missing entries. The app will notify her and show in red what the system was unable to process.
+  </p>
+  <img class="image" src="images/Chef Smart/iteration4.png" alt="" />
+<br /><br /><br /><br /><br /><br /><br />
+        <p>
+
+        <b>3) Many apps will have a functional landing page, for example a newsfeed page for Facebook. </b></p>
+
+      <p> Initially, the only iterations I performed on my landing page were purely visual in nature. However, after performing usability testing I realized that my landing page had no functionality at all (second wireframe). It just had my app logo and a menu button bar. It served no purpose, so the landing page was changed to a list page with all the other features added to the menu icon. </p>
+        <img class="image" src="images/Chef Smart/iteration5.png" alt="" />
+        <p>
+          Now my landing page will be the page where Janice can find her list; this will in turn increase app functionality and efficiency.
+        </p><br /><br /><br /><br />
+        <p>
+          After my iterations, I created block level wireframes and prototyped it in order to present it to my client. (The end deliverable that was requested by the client was a block level prototype).
+        </p>
+            <img class="image" src="images/Chef Smart/wireframes.png" alt=""/>
+</div>
+</section>
+
+
+<section class="overview-content10">
+    <h1 class="header">Next Steps & Reflections</h1><br /><br />
+      <div class="accordion accordion-flush" id="accordion" role="tablist" aria-multiselectable="true">
+
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="HeadingTwo">
+
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="accordion" href="#CollapseTwo" aria-expanded="true" aria-controls="CollapseTwo" <button class="download-button3 btn btn-lg" type="button">View</button>
+            </a>
+          </h4>
+        </div>
+</section>
+<div id="CollapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="HeadingTwo">
+  <section class="overview-content">
+    <h1 class="header">Next Steps</h1><br /><br />
+    <p>
+      1) Design with consideration for accessiblity. Meet the WCAG 2.1's AA Standards.<br />
+      2) Build hi-fi wireframes & prototype it.<br />
+      3) Explore and attempt to remedy the technical constraints.<br />
+      4) Explore and update the recipe suggestion feature.
+    </p>
+    <br /><br /><br />
+  <h1 class="header">Reflection and Learning</h1><br /><br />
+
+<b><p>
+  1) Problem over Solution</b></p>
+<p>
+  This was my very first project and it really challenged my design thinking. I learned that defining and understanding the right problem is always more important than coming up with the perfect solution. Ultimately, being problem focused will help you find the right problem to solve, instead of being idealistic about the most beautiful solution.
+</p><br /><br />
+<b> <p>
+
+2) Rapid iteration and constant usability testing are irreplaceable!</b></p>
+  <p>
+    I got to really learn the importance of usability testing and feedback. I would not have realized that I was designing an app that my user would never want to use until I performed testing. This led to me to understand a true facet of design: I am not my user! </p>
+
+    </div>
+  </div>
+</section>
+<section class="overview-content">
+<a href="https://suzy-park.com/#projects" <button class="download-button btn btn-lg" type="button">
+    View More Projects</button></a>
+</section>
+    <!-- Scroll to Top Button-->
+
+
+    <a class="js-scroll-trigger scroll-to-top position-fixed enlarge" href="#title"><img src="images/top.png" class="img-responsive"></i></a>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+</body>
+</head>
+
+</html>

@@ -1,0 +1,43 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+
+
+/***#F6F9FC****/
+.highlight {
+    background-color: #EEF9FB;
+
+}
+
+.proj-head {
+background-color: #FFFFFF;
+}
+
+h1{
+  color: #479EE2;
+  font-style: normal;
+  padding-top: 100px;
+  padding-bottom: 20px:
+}
+body {
+   font-family: Ubuntu, sans-serif;
+}
+.logo{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***.prototype-d{
+  z-index:5;
+  position: relative;
+  ext-align: center;****/
+
+.prototype{
+  width: 200px;
+}
+/***@media screen and max-width(576px){
+.prototype{
+  bottom: 25vw;)***/
+  \

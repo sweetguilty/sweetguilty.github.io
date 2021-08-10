@@ -1,43 +1,204 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu);
-
-
-/***#F6F9FC****/
-.highlight {
-    background-color: #EEF9FB;
-
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight:700;
 }
 
-.proj-head {
-background-color: #FFFFFF;
+h2{
+
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.4rem;
 }
 
-h1{
-  color: #479EE2;
-  font-style: normal;
-  padding-top: 100px;
-  padding-bottom: 20px:
+p{
+  color: #000;
+  font-size:1.5rem;
 }
-body {
-   font-family: Ubuntu, sans-serif;
+
+.white-text{
+  color: #fff;
+  font-size:1.5rem;
+  padding: 3% 7%;
 }
+
+.header{
+  color:#4691E1;
+}
+.header1{
+  padding:0 7%;
+}
+/*Navigation Bar*/
+
+.navbar{
+  padding: 1.5rem 4.5rem 0rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  }
+
+.nav-link{
+  font-size:1.4rem;
+  font-family:"Montserrat";
+  font-weight:400;
+}
+
 .logo{
-  padding-top: 50px;
-  padding-bottom: 30px;
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width:70px;
 }
 
-/***.prototype-d{
-  z-index:5;
+/*Hero*/
+
+
+.hero{
+position:relative;
+width:100vw;
+height 100vh;
+  margin:0;
+}
+
+.hero-pic{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  margin:0;
+  image-rendering: crisp-edges;
+}
+/**Overview**/
+#content-overview{
+  padding: 7% 15% 0;
+  background-color:#fff;
   position: relative;
-  ext-align: center;****/
+}
+
+#feature-box{
+  padding: 3% 7%;
+  background-color: #92c7f1;
+  background-image: linear-gradient(160deg, #92c7f1 0%, #0071b3 100%);
+  text-align: center;
+  position: relative;
+}
+
+.icon{
+  color: #fff;
+
+}
+
+.icon:hover{
+color:#ef8172;
+}
+
+/**Challenge & Outcome**/
+#challenge-outcome-content{
+  padding: 5% 15%;
+  background-color: #92c7f1;
+  background-image: linear-gradient(160deg, #92c7f1 0%, #0071b3 100%); 100%);
+  color:#fff;
+  position: relative;
+}
+
+/***Solution***/
+#solution-content{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
 
 .prototype{
-  width: 200px;
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
 }
-/***@media screen and max-width(576px){
-.prototype{
-  bottom: 25vw;)***/
-  \
+.image{
+    image-rendering: crisp-edges;
+}
+/**Process**/
+#design-process{
+  padding: 7% 15% 0;
+  background-color:#fff;
+  position: relative;
+}
+.image1{
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+#detail-process{
+  padding: 2% 15% 7%;
+  background-color:#fff;
+  position: relative;
+}
+
+.image2{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* or object-fit: contain; */
+ image-rendering: crisp-edges;
+}
+.image3{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+ image-rendering: crisp-edges;
+}
+
+
+.nextsteps{
+  padding: 2% 15% 7%;
+  background-color:#fff;
+  position: relative;
+}
+/***More projects***/
+#content-moreproject{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+.process{
+  padding: 7% 15%;
+  background: rgb(255,103,86);
+  background: linear-gradient(90deg, rgba(255,103,86,1) 33%, rgba(252,26,107,1) 100%);
+  color: #fff;
+  position: relative;
+}
+.process2{
+  padding: 7% 15% 0;
+  background-color:#fff;
+  position: relative;
+}
+.insight2{
+  padding:6% 0 0 1%;
+}
+
+.download-button{
+  background-color: #92c7f1;
+  background-image: linear-gradient(160deg, #92c7f1 0%, #0071b3 100%); 100%);
+  color:#fff;
+  width: 30%;
+  border-radius: 20px;
+  }
+
+.demo{
+  color: #fff;
+}
+
+/*--Scroll---*/
+
+.scroll-to-top{
+  right:4rem;
+  bottom:2rem;
+  padding:1rem;
+  border-radius:100px;
+  font-size:1rem;
+}
+
+.position-fixed{
+  position: fixed!important;
+}

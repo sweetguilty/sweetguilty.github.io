@@ -1,0 +1,159 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight:700;
+}
+
+}
+h2{
+
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.4rem;
+}
+
+p{
+  color: #000;
+  font-size:1.5rem;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+  padding: 1.5rem 4.5rem 0rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  }
+
+.nav-link{
+  font-size:1.4rem;
+  font-family:"Montserrat";
+  font-weight:400;
+}
+
+.logo{
+  width:70px;
+}
+
+/*Hero*/
+
+
+.hero{
+position:relative;
+width:100vw;
+height 100vh;
+  margin:0;
+}
+
+.hero-pic{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  margin:0;
+  image-rendering: crisp-edges;
+}
+
+/**Overview**/
+.overview-content{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+
+.header{
+  color:#000;
+  font-family:"Montserrat";
+  font-weight:700;
+}
+
+.overview-content2{
+  padding: 0 15% 0;
+  background-color:#FFDCA7;
+  position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 7% 0 7%;
+}
+
+  .icon{
+    color: #000;
+
+}
+
+.icon:hover{
+  color:#8DB9F4;
+}
+/***Challenge&requirement***/
+.overview-content3{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+/**Solutions**/
+.download-button{
+  background-color: #FAB94B;
+  color:#fff;
+  width: 30%;
+  border-radius: 20px;
+  }
+/***Outcome***/
+.user{
+  text-align: right;
+}
+/***Process**/
+.overview-content4{
+  padding: 7% 15% 3%;
+  background-color:#FFDCA7;
+  position: relative;
+}
+.accordion{
+  width: 100%;
+  }
+.download-button2{
+    background-color: #4472C4;
+    color:#fff;
+    width: 30%;
+    border-radius: 20px;
+    }
+.image{
+  text-align: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%; 0;
+}
+.overview-content5{
+  padding: 7% 15%;
+  background-color:#FFDCA7;
+  position: relative;
+}
+/**Reflection**/
+.overview-content10{
+  padding: 3% 15% 5%;
+  background-color:#FFDCA7;
+  position: relative;
+}
+
+.download-button3{
+    background-color: #4472C4;
+    color:#fff;
+    width: 15%;
+    border-radius: 20px;
+    }
+/*--Scroll---*/
+
+.scroll-to-top{
+  right:4rem;
+  bottom:2rem;
+  padding:1rem;
+  border-radius:100px;
+  font-size:1rem;
+}
+
+.position-fixed{
+  position: fixed!important;
+}
