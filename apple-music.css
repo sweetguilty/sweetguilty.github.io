@@ -225,5 +225,12 @@ color:#ef8172;
       border-radius:100px;
       font-size:1rem;
     }
-
-}
+    p{
+      color: #000;
+      font-size:0.7rem;
+    }
+    .white-text{
+      color: #fff;
+      font-size:0.7rem;
+      padding: 3% 7%;
+    }

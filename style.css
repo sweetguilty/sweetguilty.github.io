@@ -272,4 +272,18 @@ transition-delay:.2s;
   color:#fff;
 }
 
+p{
+  color: #8F8F8F;
+  font-size:0.7rem;
+}
+.body-text{
+  padding: 2% 5%;
+  font-size:0.7rem;
+  color: #fff;
+}
+.footer-word{
+  color:#fff;
+    font-size: 1rem;
+}
+
   }
