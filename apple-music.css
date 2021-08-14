@@ -209,6 +209,7 @@ color:#ef8172;
     width: 100%;
     border-radius: 30px;
     margin-top: 30px;
+          font-size: 1rem;
     }
 
     .prototype{
@@ -233,4 +234,8 @@ color:#ef8172;
       color: #fff;
       font-size:1rem;
       padding: 3% 7%;
+    }
+    .image{
+      width:250%;
+
     }

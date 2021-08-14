@@ -1,4 +1,274 @@
-@media screen and (max-width:500px){
-  .navbar{
-    padding: 1.5rem 0.5rem 0rem;
+
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight:700;
   }
+
+  h2{
+
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+
+  p{
+    color: #000;
+    font-size:1.5rem;
+  }
+
+  .white-text{
+    color: #fff;
+    font-size:1.5rem;
+    padding: 3% 7%;
+  }
+
+  .header1{
+    padding:0 7%;
+    color:#fff;
+  }
+  /*Navigation Bar*/
+
+  .navbar{
+    padding: 1.5rem 4.5rem 0rem;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+    }
+
+  .nav-link{
+    font-size:1.4rem;
+    font-family:"Montserrat";
+    font-weight:400;
+  }
+
+  .logo{
+    width:70px;
+  }
+
+  /*Hero*/
+
+
+  .hero{
+  position:relative;
+  width:100vw;
+  height 100vh;
+    margin:0;
+  }
+
+  .hero-pic{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    margin:0;
+    image-rendering: crisp-edges;
+  }
+  /**Overview**/
+  #content-overview{
+    padding: 7% 15%;
+    background-color:#fff;
+    position: relative;
+  }
+
+  #feature-box{
+    padding: 7% 15%;
+    background: #000;
+    text-align: center;
+    position: relative;
+  }
+
+  .icon{
+    color: #fff;
+
+  }
+
+  .icon:hover{
+  color:#fff;
+  }
+  /**Problem**/
+
+  #problem-content{
+    padding: 7% 15%;
+    background-color:#fff;
+    position: relative;
+  }
+
+  /**painpoints**/
+  #painpoints{
+    padding: 7% 15%;
+    background: #000;
+    color:#fff;
+    position: relative;
+  }
+/**HMW**/
+#hmw{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+}
+  /***Solution***/
+  #solution-content{
+    padding: 7% 15%;
+    background-color:#000;
+    position: relative;
+  }
+
+  .prototype{
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+  .prototype2{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+  .image{
+      image-rendering: crisp-edges;
+  }
+  /**Process**/
+  .design-process{
+    padding: 7% 15% 0;
+    background-color:#fff;
+    position: relative;
+  }
+  .image1{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+
+  .detail-process{
+    padding: 7% 15% 7%;
+    background-color:#fff;
+    position: relative;
+  }
+
+  .image2{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* or object-fit: contain; */
+   image-rendering: crisp-edges;
+  }
+  .image3{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+   image-rendering: crisp-edges;
+  }
+
+
+  .nextsteps{
+    padding: 7% 15% 7%;
+    background-color:#000;
+    position: relative;
+  }
+  /***More projects***/
+  #content-moreproject{
+    padding: 7% 15%;
+    background-color:#000;
+    position: relative;
+  }
+
+
+  .download-button{
+    background: #fff;
+    color:#000;
+    width: 30%;
+    border-radius: 20px;
+    }
+
+
+
+  /*--Scroll---*/
+
+  .scroll-to-top{
+    right:4rem;
+    bottom:2rem;
+    padding:1rem;
+    border-radius:100px;
+    font-size:1rem;
+  }
+
+  .position-fixed{
+    position: fixed!important;
+  }
+
+
+/*---Carousel---*/
+.carousel-control-prev {
+    position:absolute;
+    top:0px;
+    left:-20%;
+    z-index:100;
+}
+
+.carousel-control-next {
+    position:absolute;
+    top:0px;
+    right:-20%;
+    z-index:100;
+}
+
+  @media screen and (max-width:500px){
+    .navbar{
+      padding: 1.5rem 0.5rem 0rem;
+    }
+    .download-button{
+      background: #fff;
+      color:#000;
+      width: 100%;
+      border-radius: 30px;
+      margin-top: 30px;
+      font-size: 1rem;
+      }
+
+      .prototype{
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+      }
+      .prototype2{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+      }
+
+      .scroll-to-top{
+        right:0.5rem;
+        bottom:0.5rem;
+        padding:0.5rem;
+        border-radius:100px;
+        font-size:1rem;
+      }
+      p{
+        color: #000;
+        font-size:1rem;
+      }
+      .white-text{
+        color: #fff;
+        font-size:1rem;
+        padding: 3% 7%;
+      }
+      .image{
+        width:100%;
+
+      }
+      .header{
+      font-size: 1.3rem;
+      }
+
+      .header1{
+      font-size: 1.3rem;
+      }
+    }

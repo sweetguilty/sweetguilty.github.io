@@ -167,18 +167,21 @@ height 100vh;
     color:#fff;
     width: 100%;
     border-radius: 20px;
+    font-size: 1rem;
     }
     .download-button2{
         background-color: #4472C4;
         color:#fff;
         width: 100%;
         border-radius: 20px;
+        font-size: 1rem;
         }
         .download-button3{
             background-color: #4472C4;
             color:#fff;
             width: 100%;
             border-radius: 20px;
+            font-size: 1rem;
             }
             .scroll-to-top{
               right:0.5rem;
