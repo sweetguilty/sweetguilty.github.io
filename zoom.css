@@ -22,6 +22,10 @@
     font-size:1.2rem;
   }
 
+  h5{
+    font-size:1rem;
+  }
+
 .blue{
   background: rgb(237,249,251);
   background: linear-gradient(90deg, rgba(237,249,251,1) 0%, rgba(70,174,225,1) 0%, rgba(24,124,227,1) 60%);;
@@ -76,11 +80,12 @@ padding:6%;
   display: block;
   width: 100%;
   margin: 0;
+    margin-bottom: 5%;
 }
 .image3{
   display: block;
   margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -206,4 +211,245 @@ margin-top:0.7%;
 
     .position-fixed{
       position: fixed!important;
+    }
+
+
+/*---Responsive---*/
+@media screen and (max-width:500px){
+  p{
+    font-size:1rem;
+  }
+  .p2{
+      font-size:1rem;
+        }
+  h2{
+          font-size: 1.1rem;
+
+        }
+  .h2blue{
+          font-size: 1.1rem;
+        }
+
+        /*Nav Bar**/
+.home{
+          display: block;
+          margin-top: 5%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 10%;
+          width: 20%;
+        }
+        .image1{
+          display: block;
+          margin-top: 1%;
+          margin-left: auto;
+          margin-right: auto;
+          width: 20%;
+        }
+        .image{
+          display: block;
+          margin-top: 18%;
+          margin-left: auto;
+          margin-right: auto;
+          width: 10%;
+        }
+        .image2{
+          display: block;
+          width: 100%;
+          margin: 0;
+        }
+        .image3{
+          display: block;
+          margin-top: 3%;
+            margin-bottom: 3%;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        }
+        .image5{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+        }
+        .image6{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 10%;
+        }
+        .black{
+          width:100%;
+          height: 11%;
+          position:fixed;
+          padding-left: 0;
+          padding-right:0;
+        }
+
+        .homeicon{
+          position:fixed;
+          width:8%;
+          margin-left: 2.5%;
+          margin-top:0.9%;
+        }
+        .overviewicon{
+          position:fixed;
+          width:15%;
+          margin-left: 9%;
+          margin-top:2%;
+        }
+
+        .problem{
+          position:fixed;
+          width:15%;
+          margin-left:20%;
+          margin-top:2%;
+        }
+
+        .user{
+          position:fixed;
+          width:15%;
+          margin-left: 29%;
+          margin-top:2%;
+
+        }
+        .painpoints{
+          position:fixed;
+          width:15%;
+          margin-left: 39%;
+          margin-top:2.1%;
+        }
+
+        .limitationicon{
+          position:fixed;
+          width:15%;
+          margin-left: 51%;
+          margin-top:2%;
+
+        }
+        .solution{
+          position:fixed;
+          width:15%;
+          margin-left: 62%;
+          margin-top:2%;
+        }
+
+        .prototypeicon{
+          position:fixed;
+          width:15%;
+          margin-left: 74%;
+          margin-top:2.1%;
+        }
+
+        .learning{
+          position:fixed;
+          width:15%;
+          margin-left: 85%;
+          margin-top:2.1%;
+        }
+
+        .green{
+          position:fixed;
+          width:30%;
+          margin-left: 28%;
+          margin-top:9.7%;
+          }
+          .red{
+            position:fixed;
+            width:12.5%;
+            margin-left: 58%;
+            margin-top:9.7%;
+          }
+
+
+
+
+          .home{
+            display: block;
+            margin-top: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20%;
+            width: 50%;
+          }
+          .image1{
+            display: block;
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+          }
+          .image{
+            display: block;
+            margin-top: 18%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+          }
+          .image2{
+            display: block;
+            width: 100%;
+            margin: 0;
+          }
+          .image3{
+            display: block;
+            margin-top: 5%;
+              margin-bottom: 3%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+          }
+          .image5{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+          }
+          .image6{
+            display: block;;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+          }
+
+          /***Content:Overview**/
+          .content-overview{
+            padding: 20% 5%;
+            background-color:#fff;
+            position: relative;
+            z-index: -3;
+          }
+          .overviews{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+          }
+          .painpoint1{
+            padding: 20% 5% 0 5% ;
+            background-color:#fff;
+            position: relative;
+            z-index: -3;
+          }
+
+}
+@media screen and (max-width:400px){
+  .black{
+    width:100%;
+    height: 9%;
+    position:fixed;
+    padding-left: 0;
+    padding-right:0;
+  }
+  .green{
+    position:fixed;
+    width:30%;
+    margin-left: 28%;
+    margin-top:9.1%;
+    }
+    .red{
+      position:fixed;
+      width:12.5%;
+      margin-left: 58%;
+      margin-top:9.1%;
     }
