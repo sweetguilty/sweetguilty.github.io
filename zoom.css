@@ -237,14 +237,14 @@ margin-top:0.7%;
           margin-left: auto;
           margin-right: auto;
           margin-bottom: 10%;
-          width: 20%;
+          width: 40%;
         }
         .image1{
           display: block;
           margin-top: 2%;
           margin-left: auto;
           margin-right: auto;
-          width: 20%;
+          width: 30%;
         }
         .image{
           display: block;
@@ -264,13 +264,13 @@ margin-top:0.7%;
             margin-bottom: 3%;
           margin-left: auto;
           margin-right: auto;
-          width: 50%;
+          width: 100%;
         }
         .image5{
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width: 80%;
+          width: 100%;
         }
         .image6{
           display: block;
@@ -280,7 +280,7 @@ margin-top:0.7%;
         }
         .black{
           width:100%;
-          height: 4%;
+          height: 4.5%;
             display: block;
           position:fixed;
           padding-left: 0;
@@ -386,24 +386,3 @@ margin-top:0.7%;
           }
 
 }
-@media screen and (max-width:400px){
-  .black{
-    width:100%;
-    height: 3.5%;
-    position:fixed;
-      display: block;
-    padding-left: 0;
-    padding-right:0;
-  }
-  .green{
-    position:fixed;
-    width:30%;
-    margin-left: 28%;
-    margin-top:9.8%;
-    }
-    .red{
-      position:fixed;
-      width:12.5%;
-      margin-left: 58%;
-      margin-top:9.8%;
-    }
